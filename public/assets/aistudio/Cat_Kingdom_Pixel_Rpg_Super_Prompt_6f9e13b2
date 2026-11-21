@@ -1,0 +1,104 @@
+# Google AI Studio Super-Prompt: Claws of the Crown — The Great Duck's Elixir
+
+Copy and paste the prompt below directly into **Google AI Studio** (System Instructions or User Prompt) to generate a complete, playable 16-bit pixel-art 2D Story Action-RPG in a single self-contained HTML5 file.
+
+## Copy-Paste Super-Prompt
+
+```text
+ROLE & OBJECTIVE:
+You are an elite retro game engine architect and pixel-art procedural graphics programmer. Build a complete, playable, content-rich 16-bit Pixel-Art 2D Top-Down Story Action-RPG titled "CLAWS OF THE CROWN: THE GREAT DUCK'S ELIXIR" inside a single, self-contained HTML5 file (HTML + CSS + JavaScript, zero external image/audio dependencies).
+
+All sprites, tilesets, animations, particle effects, and UI icons MUST be procedurally rendered onto offscreen HTML5 canvases using crisp 16x16 and 32x32 pixel-art matrices (`image-rendering: pixelated; ctx.imageSmoothingEnabled = false`) and synthesized 8-bit/16-bit chiptune Web Audio API sound effects and music.
+
+========================================================================
+1. STORYLINE & NARRATIVE ARC (5 ACTS WITH RPG DIALOGUE CUTSCENES)
+========================================================================
+Implement a state-driven story campaign with pixel-art character portraits, typewriter dialogue boxes, and cinematic camera pans:
+
+- ACT I: THE FALL OF FELIS CITADEL (Intro Cutscene & Castle Outskirts)
+  * Lore: In the prosperous Cat Kingdom, King Leo (a majestic golden Lion) ruled peacefully using the Starlight Gem Wand. Suddenly, Fenrir the Dread Wolf from the Dog Kingdom invaded, shattered the Royal Guard, stole the Starlight Gem Wand, and crowned himself Usurper King of both kingdoms.
+  * Protagonist: Pip, a brave small tabby cat knight starting with only rusty **Iron Armor** and an **Iron Sword**. King Leo's wounded advisor tells Pip to journey deep into the Whispering Forest to seek the legendary **Great Duck**, the only sage capable of brewing the Astral Quack Potion needed to break Fenrir's barrier.
+
+- ACT II: THE GOBLIN TIMBERLANDS & ANIMAL WILDS (Zones 1 & 2)
+  * Pip ventures into the forest, battling Forest Goblins, Goblin Archers, Rabid Boars, Razor Badgers, and Rogue Hound Scouts.
+  * Loot & Progression: Enemies and treasure chests drop Gold, Materials, and tiered Weapons/Armor (Steel -> Mithril -> Sun-Forged Cat Gear).
+  * Mini-Boss 1 (Goblin Timberlands): **Grommash the Goblin Warlord** (wields a giant spiked club, performs shockwave slams and summons goblin minions).
+  * Mini-Boss 2 (Bramble Ravine): **Brambleback the Dire Bear** (ferocious charge attacks, thorn barrages).
+
+- ACT III: GUARDIAN OF THE SACRED MARSH (Zone 3 — Pre-Sanctum Boss)
+  * Before reaching the Great Duck's Sanctuary, Pip must defeat the corrupted marsh guardian Boss: **Viperfang the Swamp Hydra-Hound** (multi-head poison projectiles, lunge bites, and marsh mud hazards).
+
+- ACT IV: SANCTUARY OF THE GREAT DUCK (Zone 4 — Safe Haven & Sacred Shrine)
+  * Pip meets **The Great Duck**, a glowing, giant pixel-art Mallard Wizard wearing a starry wizard hat in a tranquil lotus pond.
+  * Cutscene & Reward: The Great Duck praises Pip's courage, upgrades Pip's blade resonance, and grants the **Golden Quack Elixir (The Great Duck's Potion)**—stored in the special `[Q]` Relic Slot for the final showdown, alongside a portal back to the usurped Citadel.
+
+- ACT V: RETURN TO THE THRONE & THE TWO-PHASE FINAL BOSS (Zone 5)
+  * Pip storms the corrupted Throne Room to confront **Usurper King Fenrir** (holding King Leo's stolen Starlight Gem Wand).
+  * THE POTION MECHANIC: At the start of the confrontation (or when prompted by Fenrir's impenetrable dark aura), the player presses `[Q]` to drink **The Great Duck's Potion**. Drinking it triggers a golden pixel aura burst, shatters Fenrir's invulnerability shield, boosts Pip's attack speed and damage, and initiates the 2-Phase Final Boss Fight:
+    - **PHASE 1: Usurper King Fenrir (Wand-Wielder)** — Teleports across the throne room, fires Starlight Gem laser beams, casts homing gem shards, and performs wolf-claw dash combos.
+    - **PHASE 2: Calamity Beast Fenrir (Gem-Overloaded Form at 0% Phase 1 HP)** — Cutscene transition! Fenrir absorbs the Starlight Gem's raw power, growing into a massive shadow-lightning Dire Wolf. Attacks include bullet-hell gem novas, shadow-wolf pack summons, arena-splitting lightning slashes, and meteor slams.
+  * ENDING: Defeating Phase 2 retrieves the Starlight Gem Wand, restores King Leo to the throne, and triggers a playable Victory Celebration screen with full run statistics.
+
+========================================================================
+2. ANTI-GUI-FLOODING & PIXEL HUD ARCHITECTURE (STRICT VISUAL RULES)
+========================================================================
+- ZERO GUI FLOODING: Never cover more than 12% of the viewport with UI elements. Keep the pixel-art game world 88%+ unobstructed at all times.
+- COMPACT TOP-LEFT HUD BAR:
+  * Pixel Heart/HP bar, Stamina/Dodge pips, XP bar, Current Level, Gold count, and Equipped Weapon/Armor 16x16 icons.
+- COMPACT TOP-RIGHT QUEST & POTION WIDGET:
+  * Single-line active Quest Objective tracker + `[H] Heal Potion` counter + `[Q] Great Duck's Elixir` status icon.
+- BOSS HEALTH BAR:
+  * Appears ONLY during Mini-Boss or Boss encounters at the bottom-center of the screen with Phase indicator (`PHASE 1 / 2` or `PHASE 2 / 2`).
+- TOGGLEABLE MODAL DRAWER (`[I]` or `[TAB]`):
+  * Inventory, Equipment comparison (Iron -> Steel -> Mithril -> Royal Cat), and Blacksmith Upgrade anvil open ONLY when toggled, pausing gameplay cleanly.
+- FLOATING PIXEL COMBAT TEXT:
+  * Crisp pixel-font damage numbers, `"CRIT!"`, `"DODGE!"`, and compact loot pickup toasts that fade out within 1.0 second (max 3 active toasts at once).
+
+========================================================================
+3. CORE GAMEPLAY, COMBAT & LOOT SYSTEMS
+========================================================================
+- CONTROLS:
+  * `WASD` or `Arrow Keys`: 8-directional pixel-snapped movement.
+  * `SPACE` or `Left Click`: 3-hit Sword Slash combo with directional arc hitbox and pixel slash trail.
+  * `SHIFT` or `Right Click`: Cat Reflex Dodge-Roll (brief i-frames + afterimage trail).
+  * `E`: Interact with NPCs (King Leo's Advisor, Blacksmith Cat, The Great Duck), open Treasure Chests, or use Zone Portals.
+  * `H`: Drink standard Health Potion.
+  * `Q`: Drink **The Great Duck's Potion** (awakens Golden Cat Form during the Wolf Boss encounter).
+  * `I`: Toggle Equipment & Loot Inventory screen.
+
+- GEAR & LOOT PROGRESSION TABLE (Procedurally Dropped & Chest Rewards):
+  1. Starter Tier: **Iron Sword** (+5 ATK) & **Iron Armor** (+10 Max HP, +2 DEF) — Equipped at start.
+  2. Tier 2 (Goblin Woods): **Steel Claws** (+12 ATK) & **Steel Plate Mail** (+30 Max HP, +5 DEF).
+  3. Tier 3 (Bramble Ravine): **Mithril Fang Blade** (+22 ATK, +15% Crit) & **Mithril Knight Armor** (+65 Max HP, +10 DEF).
+  4. Tier 4 (Swamp Boss / Sanctuary Chest): **Sun-Forged Lionheart Blade** (+38 ATK, +25% Crit, Sword Beam projectile on 3rd hit) & **Royal Felis Armor** (+120 Max HP, +18 DEF).
+  5. Legendary Relic (From The Great Duck): **The Great Duck's Potion** (Breaks Fenrir's Dark Ward, +50% All Stats, Golden Feather Aura, HP Regen in Final Boss).
+
+========================================================================
+4. PROCEDURAL PIXEL-ART & CHIPTUNE ENGINE SPECIFICATIONS
+========================================================================
+- PIXEL RENDERER:
+  * Internal logical resolution: `480x270` scaled up cleanly to fill the window with `image-rendering: pixelated`.
+  * Custom 16x16 and 24x24 sprite matrices for:
+    - Small Cat Hero (with visible visual changes or tinting for Iron, Steel, Mithril, and Royal Armor + Golden Aura when Duck Potion is active).
+    - King Leo (Golden Lion with mane), Wounded Cat Guard, Blacksmith Cat, and **The Great Duck** (large 32x32 golden-white duck with wizard hat).
+    - Enemies: Goblin Grunt, Goblin Archer, Wild Boar, Dire Bear (Mini-Boss), Swamp Hydra-Hound (Boss), and Usurper Wolf King Fenrir (Normal Phase 1 sprite + Giant Corrupted 48x48 Phase 2 sprite).
+  * Rich environment tilemaps: Castle Courtyard, Lush Forest Path, Goblin Camp, Sacred Lotus Pond (Great Duck's Shrine), and Corrupted Throne Room.
+- WEB AUDIO SYNTHESIZER:
+  * Procedural retro sound effects for sword slashes, hit impacts, goblin cries, chest fanfare, duck "QUACK!" wisdom chime, potion drink power-up, and boss phase transition roar.
+
+========================================================================
+5. DELIVERABLE REQUIREMENTS
+========================================================================
+Output the COMPLETE, fully functional, un-truncated single-file HTML code (`index.html`). Do not use placeholders, `// TODO` comments, or omitted functions. Every zone, mini-boss, loot tier, the Great Duck cutscene, and both phases of the final Wolf Boss fight must be 100% playable from start to finish.
+```
+
+## Optional Quick-Tune Prompts (For Follow-Up Iterations in AI Studio)
+
+If you want to expand or tweak the game after Google AI Studio generates the first version, paste any of these follow-up prompts:
+
+1. **Add Cat Companion / Duck Summon:**
+   > "Add a summon mechanic where pressing `[R]` once per cooldown calls the Great Duck to fly across the screen, dropping exploding golden eggs on enemies while keeping the HUD under the 12% anti-GUI-flooding limit."
+2. **Add New Game+ & Boss Rush Mode:**
+   > "Add a Boss Rush portal in the Great Duck's Sanctuary after beating Fenrir Phase 2, letting the player refight Grommash, Brambleback, Viperfang, and Dual-Phase Fenrir with Mythic-tier Catnip Weapons."
+3. **Enhance Pixel Cutscenes & Dialogue Choices:**
+   > "Add branching dialogue choices when speaking to the Great Duck and King Leo, plus animated pixel-art cutscene panels showing the Wolf stealing the Starlight Gem Wand during the intro."

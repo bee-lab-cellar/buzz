@@ -1,0 +1,152 @@
+# Google AI Studio Mega Super-Prompt: Claws of the Crown — The 41-Act Odyssey of Nyx the Wizard Cat
+
+Copy and paste the prompt below directly into **Google AI Studio** (System Instructions or User Prompt) to generate a massive, data-driven **41-Act 16-bit Pixel-Art 2D Story Action-RPG** in a single self-contained HTML5 file—where **Nyx the Wizard Cat** battles through **40 full Acts of biomes, goblins, wild beasts, mini-bosses, and regional bosses** before finally reaching **The Great Duck in Act 40**, obtaining the **Astral Quack Potion**, and returning in **Act 41** to fight the **2-Phase Usurper Wolf King**.
+
+## Copy-Paste Mega Super-Prompt
+
+```text
+ROLE & OBJECTIVE:
+You are an elite retro game engine architect and pixel-art procedural graphics programmer. Build a complete, playable, marathon-length 16-bit Pixel-Art 2D Top-Down Story Action-RPG titled "CLAWS OF THE CROWN: THE 41-ACT ODYSSEY OF NYX" inside a single, self-contained HTML5 file (HTML + CSS + JavaScript, zero external image/audio dependencies).
+
+All sprites, tilesets, cutscene panels, animations, particle effects, and UI icons MUST be procedurally rendered onto offscreen HTML5 canvases using crisp 16x16, 24x24, and 32x32 pixel-art matrices (`image-rendering: pixelated; ctx.imageSmoothingEnabled = false`) and synthesized 8-bit/16-bit chiptune Web Audio API sound effects and music.
+
+========================================================================
+1. PROTAGONIST DESIGN: NYX THE WIZARD CAT (FROM BLOCKCRAFT ALCHEMY)
+========================================================================
+Star **Nyx the Wizard Cat** from *BlockCraft Alchemy* as our adorable, heroic small cat protagonist:
+- NYX'S ICONIC VISUAL DESIGN (24x24 Pixel Matrix + 32x32 Portrait):
+  * **Sleek Void-Black / Midnight-Indigo Fur**: Chubby, cute blocky-pixel midnight-black cat (`#14121f` base with `#292442` purple-indigo pixel shading, soft white paw tips, and a tiny pink nose pixel `#ff8fab`).
+  * **Glowing Mystic Eyes**: Huge, luminous golden-amber / arcane-violet pixel eyes (`3x3` with bright white `1x1` starlight catchlights that blink and turn into cute happy `^ω^` arcs or fierce `>ω<` battle eyes).
+  * **Oversized Crooked Starry Wizard Hat (With Ear Cutouts!)**: Nyx wears his signature oversized, slightly bent purple-indigo **Alchemist Wizard Hat** with a golden buckle band and glowing pixel stars—with two custom ear-holes so Nyx's pointy black cat ears (with pink inner pixels) poke right through and twitch!
+  * **Evolving Armor & Blade Visuals**: Starts in **Act 1** with **Iron Armor** and an **Iron Sword** worn under his starry wizard mantle and glowing voxel potion belt. As Nyx collects better loot across the 40 Acts, his sword trail, cape trim, and hat stars visually evolve across 10 Equipment Tiers!
+- NYX'S CUTE ANIMATIONS & REACTIONS:
+  * **Idle**: Bouncy breathing, oversized wizard hat bobbing, ear twitches, tail swaying with purple/gold star particles, and occasional `"Meow~ ✨"` or bubbling potion thought-bubbles in safe camps.
+  * **Shadow-Puff / Cat-Ball Dodge-Roll**: Nyx curls into a spinning void-cat ball leaving starry alchemy sparkles and brief invulnerability frames (i-frames).
+  * **Drinking The Great Duck's Potion (Act 41)**: Nyx holds up the blocky 3D-styled voxel potion bottle with both paws, gulps it down with a BlockCraft Alchemy cauldron-style *BOOM!* sparkle burst, and awakens **Astral Archmage-Knight Nyx** (glowing golden-violet aura, floating duck feathers, and rainbow starlight cape).
+
+========================================================================
+2. CINEMATIC OPENING CUTSCENE & EPILOGUE CUTSCENE ENGINE
+========================================================================
+Build a dedicated multi-scene **Pixel Cutscene Director Engine** (with camera pans, screen shake, animated sprites, dramatic lighting, typewriter dialogue with 8-bit voice blips, and a `[⏭️ SKIP / NEXT]` tap/key button):
+
+- OPENING CUTSCENE ("PROLOGUE: THE SHATTERED STAR-WAND" — 4 Animated Panels before Act 1):
+  * **Scene 1 — Golden Era of Felis Citadel**: Inside the sunlit Pixel Throne Room, **King Leo (The Lion King)** rules peacefully holding the **Starlight Gem Wand**. Nearby, **Nyx the Wizard Cat** (in his crooked starry wizard hat, starter Iron Armor, and Iron Sword) practices his squire drills.
+  * **Scene 2 — The Wolf Invasion**: Thunder crashes! The stained-glass windows shatter in a shower of pixels as **Fenrir the Dread Wolf** and his Dog Kingdom Vanguard storm the hall in dark iron armor.
+  * **Scene 3 — The Theft of the Wand**: King Leo clashes with Fenrir, but Fenrir unleashes a shadow-chain ambush, knocks King Leo down, and snatches the **Starlight Gem Wand**! Using the corrupted gem's beam, Fenrir seals the Citadel in dark purple crystals and crowns himself **Usurper King of Both Kingdoms**.
+  * **Scene 4 — The 40-Act Oath**: Outside the burning castle gates in the rain, King Leo's wounded Royal Advisor hands Nyx an ancient 8-Region World Map: *"Nyx! Deep beyond the 39 forbidden territories of the Great Forest lies the Sacred Lotus Sanctum. Only **The Great Duck** in the 40th Realm can brew the **Astral Quack Elixir** to shatter Fenrir's Gem Barrier. Start with your Iron Armor and Iron Sword, grow stronger, and reclaim our kingdom!"*
+
+- ENDING EPILOGUE CUTSCENE ("EPILOGUE: DAWN OF THE TWO KINGDOMS" — 4 Animated Panels after beating Act 41 Phase 2):
+  * **Scene 1 — The Wand Reclaimed**: As Calamity Fenrir collapses and shrinks back into a humbled pup, the **Starlight Gem Wand** floats into Nyx's paws, purifying the dark sky into golden sunrise.
+  * **Scene 2 — Restoration of King Leo**: Back inside the restored Felis Citadel, Nyx returns the Starlight Gem Wand to **King Leo**, who taps Nyx's crooked wizard hat with the wand and knights him as **Grand Archmage-Paladin of Both Realms**.
+  * **Scene 3 — The Great Duck's Royal Feast**: A celebratory banquet in the courtyard! **The Great Duck** floats down wearing a matching starry wizard hat next to Nyx, sharing golden salmon and bubbling alchemy potions with Nyx (`^ω^` happy eyes), King Leo, and the reformed Dog Kingdom envoys.
+  * **Scene 4 — Victory Hall of Fame & Endless/NG+ Unlock**: Displays full 41-Act run statistics (Total Time, Deaths, Enemies Slain, Loot Tiers Unlocked) and unlocks **New Game+ (Nightmare Mode)** & **41-Act World Map Select**.
+
+========================================================================
+3. THE MEGA 41-ACT CAMPAIGN ARCHITECTURE (40 ACTS TO REACH THE GREAT DUCK + ACT 41 FINAL SHOWDOWN)
+========================================================================
+Implement a structured, data-driven **41-Act Campaign Engine** divided into **8 Distinct Forest & Wilderness Biomes (5 Acts per Biome = 40 Acts)** leading to **The Great Duck**, followed by **Act 41 (The Throne Room Return & 2-Phase Wolf Boss)**.
+Each Act features its own procedural tilemap layout, unique enemy wave compositions, environmental hazards, treasure chests, and dialogue banner:
+- **Every 3rd Act within a Biome (Acts 3, 8, 13, 18, 23, 28, 33, 38)** is a **MINI-BOSS ACT**!
+- **Every 5th Act at the end of a Biome (Acts 5, 10, 15, 20, 25, 30, 35, 39)** is a **MAJOR REGIONAL BOSS ACT**!
+- **ACT 40** is the **SANCTUARY OF THE GREAT DUCK** (Sacred Cutscene + Receiving The Great Duck's Potion!).
+- **ACT 41** is the **FINAL BOSS SHOWDOWN** against **Usurper Wolf King Fenrir (2 Phases)**.
+
+### COMPLETE 41-ACT TABLE (BUILD INTO THE `ACTS_DATA` ARRAY):
+- **BIOME 1: RUINED CITADEL OUTSKIRTS & WHISPERING WOODS (Acts 1–5) | Gear Tier 1–2: Iron -> Bronze-Claw**
+  * Act 1: *Shattered Castle Gates* — Skirmish vs. Stray Hound Scouts & Goblin Looters (Starter **Iron Armor & Iron Sword**).
+  * Act 2: *Weeping Pine Trail* — Forest Goblins, Goblin Slingers, and spiked pit traps.
+  * Act 3: *Goblin Watchtower* — **[MINI-BOSS 1] Knucklebite the Goblin Captain** (dash-cleave + horn call).
+  * Act 4: *Mossy Timber Camp* — Goblin Spear-Throwers, Rabid Foxes, and locked loot chest.
+  * Act 5: *Warlord's Palisade* — **[BOSS 1] Grommash the Goblin Warlord** (giant spiked club shockwaves & bomber minions).
+
+- **BIOME 2: HOWLING BRAMBLE RAVINE (Acts 6–10) | Gear Tier 3: Steel Battlemage**
+  * Act 6: *Thornwall Gorge* — Razor Badgers, Thorn Vines, and Goblin Crossbowmen.
+  * Act 7: *Boar-Tusk Hollow* — Charging Wild Boars & Mud Wallow hazards.
+  * Act 8: *Blood-Oak Clearing* — **[MINI-BOSS 2] Gore-Tusk the Giant Alpha Boar** (relentless 3x stampede charges).
+  * Act 9: *Grizzly Cavern Mouth* — Cave Bats, Feral Wolves, and falling stalactite telegraphs.
+  * Act 10: *Den of the Titan* — **[BOSS 2] Brambleback the Armored Dire Bear** (boulder throws, thorn rings, and berserk roar).
+
+- **BIOME 3: FUNGAL GLOW-SHROOM GROTTO (Acts 11–15) | Gear Tier 4: Silver-Moon**
+  * Act 11: *Sporelit Trail* — Poison Sporelings, Goblin Alchemists (throwing acid flasks), and bounce-mushrooms.
+  * Act 12: *Mycelium Labyrinth* — Giant Centipedes & exploding puffball hazards.
+  * Act 13: *Alchemist's Outpost* — **[MINI-BOSS 3] Snaggletooth the Mad Goblin Brewmaster** (lobs fire/poison potions).
+  * Act 14: *Bioluminescent Depths* — Shadow Stalker Hounds & Crystal Beetles.
+  * Act 15: *Heart of the Spore-hive* — **[BOSS 3] Mycora the Colossal Toad-King** (tongue lash, toxic tidal waves, and spore clouds).
+
+- **BIOME 4: CRIMSON AUTUMN CANOPY & BANDITFORTS (Acts 16–20) | Gear Tier 5: Mithril Spell-Knight**
+  * Act 16: *Maple-Blade Bridge* — Dog Kingdom Mercenaries, Hound Archers, and wind gusts.
+  * Act 17: *Treetop Rope-Walks* — Swooping Harpy-Hawks & Goblin Assassin ambushes.
+  * Act 18: *Crow's Nest Stronghold* — **[MINI-BOSS 4] Talon-Eye the Falconer Bandit** (aerial dive-bombs + feather knives).
+  * Act 19: *Burning Sawmill* — Rolling log hazards, Flame Hounds, and Ironclad Goblins.
+  * Act 20: *Crimson Fortress Courtyard* — **[BOSS 4] General Vane the Iron Mastiff** (tower shield bash, chain-hook pull, and artillery barrages).
+
+- **BIOME 5: FROSTPEAK PINE & CRYSTAL CAVERNS (Acts 21–25) | Gear Tier 6: Frost-Rune Platinum**
+  * Act 21: *Blizzard Pass* — Slippery ice tiles, Snow Leopards, and Frost Goblins.
+  * Act 22: *Glacier Crevasse* — Ice Golems, Freezing Wind totems, and icicle ambushes.
+  * Act 23: *Frozen Shrine* — **[MINI-BOSS 5] Shivermaw the Wendigo-Hound** (blizzard teleport + frostbite claw waves).
+  * Act 24: *Crystal Mirror Halls* — Laser-reflecting ice crystals & Arcane Wolves.
+  * Act 25: *Summit of Eternal Rime* — **[BOSS 5] Cryo-Fang the Mammoth Behemoth** (avalanche stomps, twin ice-beam tusks, and permafrost spikes).
+
+- **BIOME 6: EMBERCRAG SCORCHED WOODS & LAVA MINES (Acts 26–30) | Gear Tier 7: Obsidian Dragon-Claw**
+  * Act 26: *Ashfall Trail* — Magma Geysers, Cinder Goblins, and Hellhound Runts.
+  * Act 27: *Obsidian Quarry* — Bomb-Cart tracks, Fire Salamanders, and Lava Slimes.
+  * Act 28: *Smelter's Crucible* — **[MINI-BOSS 6] Ignis-Crag the Magma Golem** (molten rock split & radial fire novas).
+  * Act 29: *Brimstone Bridge* — Rising lava waves & Elite Pyromancer Hounds.
+  * Act 30: *Caldera of the Forge-Lord* — **[BOSS 6] Volcanis the Three-Tailed Salamander Drake** (sweeping flame breaths, meteor showers, and lava pools).
+
+- **BIOME 7: CURSED BLIGHT MARSH & SUNKEN TEMPLE (Acts 31–35) | Gear Tier 8: Void-Forged Arcane**
+  * Act 31: *Miasma Bog* — Slowing mud pools, Swamp Crocs, and Plague Goblins.
+  * Act 32: *Sunken Catacombs* — Cursed Bone-Hounds, Wraiths, and rune-switch bridges.
+  * Act 33: *Drowned Altar* — **[MINI-BOSS 7] Dread-Scale the Ancient Alligator Knight** (whirlpool spin + death-roll lunge).
+  * Act 34: *Venom-Mist Reedbeds* — Hydra Spawnlings, Poison Dart Goblins, and phantom fog.
+  * Act 35: *Abyssal Marsh Gate* — **[BOSS 7] Viperfang the Three-Headed Swamp Hydra** (tri-elemental poison/frost/fire heads, submerge ambushes, and marsh tentacles).
+
+- **BIOME 8: ASTRAL BAMBOO GROVE & THE SACRED SANCTUM (Acts 36–40) | Gear Tier 9–10: Celestial -> Sun-Forged Lionheart**
+  * Act 36: *Starlight Bamboo Path* — Celestial Guardians, Spirit Foxes, andWolf Vanguard Elites trying to block Nyx from reaching the Duck.
+  * Act 37: *Floating Lantern Bridges* — Gravity-shift tiles, Shadow-Wolf Assassins, and Arcane Sentinels.
+  * Act 38: *Gate of the Golden Feather* — **[MINI-BOSS 8] Kiba the Wolf King's Right-Hand Shadow** (lightning-fast katana dashes & clone illusions).
+  * Act 39: *Trial of the Lotus Guardian* — **[BOSS 8 — PRE-SANCTUM FINAL TEST] Aether-Wing the Corrupted Griffin** (tornado whirlwinds, feather bullet-hell, and sky-dive slams).
+  * **Act 40: SANCTUARY OF THE GREAT DUCK (THE SACRED SHRINE!)** —
+    - Tranquil golden lotus pond with zero enemies, glowing healing springs, and a Mythic Weapon Chest (**Sun-Forged Lionheart Blade & Royal Archmage Armor**).
+    - **THE GREAT DUCK CUTSCENE**: Nyx meets **The Great Duck** (a majestic, giant 32x32 golden-white pixel Mallard Wizard wearing a starry wizard hat). The Great Duck praises Nyx for surviving all 39 trials, blesses Nyx's wizard hat, hands over **The Great Duck's Potion (`[Q]` / `[🦆 DUCK POTION]`)**, and opens a Golden Warp Portal straight back to the usurped Citadel Throne Room!
+
+- **FINALE: RETURN TO FELIS CITADEL (Act 41 — THE 2-PHASE WOLF KING BOSS FIGHT)**
+  * **Act 41: Corrupted Throne Room — Usurper King Fenrir**:
+    - Nyx steps through the portal to confront **Fenrir the Wolf King**, who wields King Leo's stolen **Starlight Gem Wand**.
+    - **THE POTION MECHANIC**: Fenrir starts encased in an impenetrable **Dark Starlight Barrier (`99% Damage Reduction`)**. An on-screen prompt flashes: *"FENRIR'S GEM BARRIER IS TOO STRONG! PRESS [Q] / TAP [🦆 DUCK POTION] TO DRINK THE GREAT DUCK'S ELIXIR!"*
+    - Drinking **The Great Duck's Potion** triggers Nyx's golden transformation cutscene (`^ω^` -> `>ω<`), shatters Fenrir's barrier into pixel shards, permanently boosts Nyx's speed, attack, and sword-beam range, and begins the 2-Phase Final Boss Fight:
+      * **PHASE 1: Usurper King Fenrir (Wand-Wielder)** — Teleports across the throne room, fires rotating Starlight Gem laser beams, casts homing crystal volleys, and performs rapid wolf-claw dash combos.
+      * **PHASE 2: Calamity Overlord Fenrir (Gem-Overloaded Dire Beast at 0% Phase 1 HP)** — Dramatic mid-fight cutscene! Fenrir devours the Starlight Gem's core and mutates into a colossal 48x48 Shadow-Starlight Dire Wolf with a fresh Phase 2 HP bar! Unleashes bullet-hell starfall novas, shadow-wolf pack summons, arena-splitting lightning slashes, and meteor slams.
+
+========================================================================
+4. HIGHER DIFFICULTY, COMBAT DEPTH & 10-TIER LOOT SYSTEM
+========================================================================
+- CHALLENGING TACTICAL COMBAT:
+  * **Red Telegraph Indicators**: Enemies and Bosses flash crisp red pixel danger zones (`0.35s–0.6s`) before lunging, slamming, or firing—forcing the player to read patterns rather than button-mash.
+  * **Perfect Dodge Counter (`⚡ PERFECT DODGE!`)**: Dodging (`SHIFT` / `[💨 ROLL]`) inside the last `0.15s` of an enemy telegraph triggers a brief slow-motion flash, restores 1 Stamina paw-pip, and makes Nyx's next sword slash a guaranteed **2.5x Arcane Crit**!
+  * **10-Tier Equipment Progression**: Enemies, Mini-Bosses, and Act Chests drop scaled Weapons and Armor from **Tier 1 (Iron Sword & Iron Armor)** -> **Tier 2 (Bronze)** -> **Tier 3 (Steel)** -> **Tier 4 (Silver-Moon)** -> **Tier 5 (Mithril)** -> **Tier 6 (Frost-Platinum)** -> **Tier 7 (Obsidian)** -> **Tier 8 (Void-Arcane)** -> **Tier 9 (Celestial)** -> **Tier 10 (Sun-Forged Lionheart Blade & Royal Archmage Armor)**.
+- FULL SAVE SYSTEM & ACT SELECT MAP:
+  * Auto-saves progress to `localStorage` at the start of every Act and whenever new loot is equipped.
+  * Includes a compact **`[🗺️ WORLD MAP (Acts 1–41)]`** modal where players can view their journey across all 41 Acts and fast-travel to any unlocked Act to farm bosses or loot!
+
+========================================================================
+5. FULL MOBILE TOUCH + DESKTOP HYBRID CONTROLS & ANTI-GUI-FLOODING HUD
+========================================================================
+- ZERO GUI FLOODING: Never cover more than 12% of the viewport with persistent HUD elements.
+- MOBILE VIEWPORT & MULTI-TOUCH CONTROLLER:
+  * `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">` and `touch-action: none; user-select: none;`.
+  * **Left Thumb Virtual Joystick**: Smooth 360° pixel-art thumbstick (`touch.identifier` tracked independently from right-hand buttons).
+  * **Right Thumb Action Cluster**: Large `[⚔️ SLASH]`, `[💨 ROLL]`, `[💬 ACT / CHEST]`, `[🧪 HEAL]`, and glowing `[🦆 DUCK POTION]` buttons.
+- COMPACT TOP HUD:
+  * Top-left: Cute **Nyx the Wizard Cat** pixel portrait, HP bar, Stamina paw-pips, Level/XP, Gold, `[🎒 BAG]`, and `[🗺️ ACT MAP]`.
+  * Top-right: `ACT X / 41 — [Act Name]`, current Objective, and `[📱 Touch UI]` toggle.
+
+========================================================================
+6. DELIVERABLE REQUIREMENTS
+========================================================================
+Output the COMPLETE, fully functional, un-truncated single-file HTML code (`index.html`). Use a clean, procedural data-driven generator for the 41 Acts (`ACTS_CONFIG` table + biome palette/tile generator + modular enemy/boss AI behaviors) so all 41 Acts, all 8 Mini-Bosses, all 8 Regional Bosses, Act 40's Great Duck Sanctuary, and Act 41's 2-Phase Final Wolf Boss are 100% playable, distinct, and bug-free without hitting token truncation.
+```
+
+## Pro Tip for Generating All 41 Acts in Google AI Studio
+
+Because this game spans **41 full Acts, 8 Mini-Bosses, 9 Major Bosses, and 2 Cutscenes**, use **`Gemini 4 Argon`** on **`Medium`** or **`Max`** thinking for the initial generation so it builds the complete procedural `ACTS_CONFIG` table cleanly in one pass—then switch back to **`Low`** for any small visual tweaks afterward!

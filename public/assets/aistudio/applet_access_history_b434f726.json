@@ -1,0 +1,73 @@
+{
+  "applets": [{
+    "lastAccessTime": "2026-11-13T11:52:21.862287Z",
+    "firstAccessTime": "2026-11-13T11:15:52.916089Z",
+    "source": {
+      "sourceType": "SPANNER",
+      "spanner": {
+        "id": "9333b78c-bffb-4246-bb0d-bf6fb17ca7cc"
+      }
+    },
+    "name": "Claws of the Crown: The Great Duck\u0027s Elixir",
+    "description": "A 16-bit pixel-art 2D top-down story action-RPG where Pip the tabby cat knight quests for the Great Duck\u0027s Elixir to reclaim the Cat Kingdom from Usurper King Fenrir."
+  }, {
+    "lastAccessTime": "2026-11-13T11:44:42.065438Z",
+    "firstAccessTime": "2026-11-10T06:43:07.977269Z",
+    "source": {
+      "sourceType": "SPANNER",
+      "spanner": {
+        "id": "3623cf17-2c77-442b-a9f9-f11799aec158"
+      }
+    },
+    "name": "BlockCraft Alchemy",
+    "description": "A chunky 3D-blocky infinite alchemy game powered by Gemini Structured Outputs with procedural 8-bit Web Audio and voxel particle physics.",
+    "runtimeType": 1
+  }, {
+    "lastAccessTime": "2026-11-13T08:09:58.059736Z",
+    "firstAccessTime": "2026-11-13T04:57:24.308683Z",
+    "source": {
+      "sourceType": "SPANNER",
+      "spanner": {
+        "id": "f4366e8e-d16f-409c-a29e-7fc998104c94"
+      }
+    },
+    "name": "Neko Noir: Rooftop Paws",
+    "description": "Playable 16-bit cyber-noir pixel cat rooftop parkour game with an 8-bit Web Audio synthesizer, procedural cat breed matrices, and AI Studio Super-Prompt Builder.",
+    "runtimeType": 1
+  }, {
+    "lastAccessTime": "2026-11-12T23:22:56.239883Z",
+    "firstAccessTime": "2026-11-12T23:22:56.239883Z",
+    "source": {
+      "sourceType": "SPANNER",
+      "spanner": {
+        "id": "a53d427f-48b6-4215-b5bb-34a797d2cefe"
+      }
+    },
+    "name": "Huyền Thoại Bông Văn Dĩa - Đường Hồ Chí Minh Trên Biển",
+    "description": "Game góc nhìn thứ nhất (First-person) tái hiện chân thực chiến tích lịch sử của Anh hùng LLVTND Bông Văn Dĩa trên hải trình tàu không số khai mở Đường Hồ Chí Minh trên biển."
+  }, {
+    "lastAccessTime": "2026-11-10T06:37:42.245811Z",
+    "firstAccessTime": "2026-11-09T07:34:53.496464Z",
+    "source": {
+      "sourceType": "SPANNER",
+      "spanner": {
+        "id": "b4c06f89-e6c5-4c3d-8991-1c53186a89a1"
+      }
+    },
+    "name": "Wild Guardians: Sanctuary Defense",
+    "description": "A premium glassmorphic tower defense game featuring collectible animal guardians, high-tech enemies, and stunning procedural biome visuals.",
+    "runtimeType": 1
+  }, {
+    "lastAccessTime": "2026-11-09T13:27:58.868472Z",
+    "firstAccessTime": "2026-11-09T13:27:58.868472Z",
+    "source": {
+      "sourceType": "SPANNER",
+      "spanner": {
+        "id": "abcc91ba-23d2-41cd-acd6-df98669eceee"
+      }
+    },
+    "name": "Primal Defense: Animal Kingdom",
+    "description": "A high-stakes Tower Defense game where animals defend their territory against high-tech hunters. Features gacha summoning, rarity systems, and spinning units.",
+    "runtimeType": 1
+  }]
+}

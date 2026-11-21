@@ -1,0 +1,116 @@
+# Google AI Studio Super-Prompt: Claws of the Crown — The Great Duck's Elixir (Cute Chibi Pixel + Mobile & PC Edition)
+
+Copy and paste the prompt below directly into **Google AI Studio** (System Instructions or User Prompt) to generate a complete, playable 16-bit pixel-art 2D Story Action-RPG in a single self-contained HTML5 file with **kawaii chibi cat pixel art** and **full Mobile Touch + PC Keyboard/Mouse support**.
+
+## Copy-Paste Super-Prompt
+
+```text
+ROLE & OBJECTIVE:
+You are an elite retro game engine architect and pixel-art procedural graphics programmer. Build a complete, playable, content-rich 16-bit Pixel-Art 2D Top-Down Story Action-RPG titled "CLAWS OF THE CROWN: THE GREAT DUCK'S ELIXIR" inside a single, self-contained HTML5 file (HTML + CSS + JavaScript, zero external image/audio dependencies).
+
+All sprites, tilesets, animations, particle effects, and UI icons MUST be procedurally rendered onto offscreen HTML5 canvases using crisp 16x16 and 32x32 pixel-art matrices (`image-rendering: pixelated; ctx.imageSmoothingEnabled = false`) and synthesized 8-bit/16-bit chiptune Web Audio API sound effects and music.
+
+========================================================================
+1. KAWAII CHIBI CAT HERO DESIGN (EXTRA CUTE PIXEL SPRITE & ANIMATIONS)
+========================================================================
+Make our protagonist **Pip the Small Cat Knight** irresistibly cute and expressive in every frame:
+- CHIBI KAWAII PROPORTIONS (16x16 / 24x24 Sprite Matrix):
+  * Big, round head with soft ginger/cream tabby stripes, fluffy white cheeks, and a tiny pink nose pixel (`#ff8fab`).
+  * Large, sparkling anime-style pixel eyes (`2x3` dark pupils with a bright white `1x1` catchlight pixel that blinks every few seconds).
+  * Expressive oversized triangular cat ears with pink inner pixels that twitch during idle animations, plus a bouncy curled tail that sways side-to-side while walking.
+  * Tiny oversized knight helmet/headband with ear-holes so Pip's cute ears poke right through the armor!
+  * Cute miniature cape that flutters behind Pip when walking or dodge-rolling, and little paw prints that briefly appear on grass/dirt tiles.
+- CUTE EMOTE & REACTION ANIMATIONS:
+  * **Idle Animation**: Subtle bouncy breathing, ear twitches, eye blinking, and an occasional floating pixel heart or `"Meow~!"` speech bubble when standing still in safe zones.
+  * **Dodge-Roll**: Pip curls into a fluffy spinning cat-ball with pastel star sparkles!
+  * **Drinking the Great Duck's Potion**: Pip does a happy two-paw jump (`^ω^` happy eyes), glowing with golden duck feathers and rainbow starlight sparkles.
+  * **Portrait Expressions**: Dialogue boxes show high-detail 32x32 pixel portraits of Pip switching between Determined (`>ω<`), Shocked (`O_O`), Happy (`^ω^`), and Battle-Ready!
+
+========================================================================
+2. STORYLINE & NARRATIVE ARC (5 ACTS WITH RPG DIALOGUE CUTSCENES)
+========================================================================
+Implement a state-driven story campaign with pixel-art character portraits, typewriter dialogue boxes, and cinematic camera pans:
+
+- ACT I: THE FALL OF FELIS CITADEL (Intro Cutscene & Castle Outskirts)
+  * Lore: In the prosperous Cat Kingdom, King Leo (a majestic golden Lion) ruled peacefully using the Starlight Gem Wand. Suddenly, Fenrir the Dread Wolf from the Dog Kingdom invaded, shattered the Royal Guard, stole the Starlight Gem Wand, and crowned himself Usurper King of both kingdoms.
+  * Protagonist: Pip, an adorable, tiny tabby cat squire starting with a slightly-too-big **Iron Armor** and **Iron Sword**. King Leo's wounded advisor tells Pip to journey deep into the Whispering Forest to seek the legendary **Great Duck**, the only sage capable of brewing the Astral Quack Potion needed to break Fenrir's barrier.
+
+- ACT II: THE GOBLIN TIMBERLANDS & ANIMAL WILDS (Zones 1 & 2)
+  * Pip ventures into the forest, battling Forest Goblins, Goblin Archers, Wild Boars, Razor Badgers, and Rogue Hound Scouts.
+  * Loot & Progression: Enemies and treasure chests drop Gold, Fish Treats, Materials, and tiered Weapons/Armor (Steel -> Mithril -> Sun-Forged Cat Gear).
+  * Mini-Boss 1 (Goblin Timberlands): **Grommash the Goblin Warlord** (wields a giant spiked club, performs shockwave slams and summons goblin minions).
+  * Mini-Boss 2 (Bramble Ravine): **Brambleback the Dire Bear** (ferocious charge attacks, thorn barrages).
+
+- ACT III: GUARDIAN OF THE SACRED MARSH (Zone 3 — Pre-Sanctum Boss)
+  * Before reaching the Great Duck's Sanctuary, Pip must defeat the corrupted marsh guardian Boss: **Viperfang the Swamp Hydra-Hound** (multi-head poison projectiles, lunge bites, and marsh mud hazards).
+
+- ACT IV: SANCTUARY OF THE GREAT DUCK (Zone 4 — Safe Haven & Sacred Shrine)
+  * Pip meets **The Great Duck**, a chubby, glowing, giant pixel-art Mallard Wizard wearing a starry wizard hat in a tranquil lotus pond.
+  * Cutscene & Reward: The Great Duck pats Pip's head, upgrades Pip's blade resonance, and grants the **Golden Quack Elixir (The Great Duck's Potion)**—stored in the special `[Q]` Relic Slot for the final showdown, alongside a portal back to the usurped Citadel.
+
+- ACT V: RETURN TO THE THRONE & THE TWO-PHASE FINAL BOSS (Zone 5)
+  * Pip storms the corrupted Throne Room to confront **Usurper King Fenrir** (holding King Leo's stolen Starlight Gem Wand).
+  * THE POTION MECHANIC: At the start of the confrontation (or when prompted by Fenrir's impenetrable dark aura), the player presses `[Q]` (or taps the glowing Golden Duck Potion button on mobile) to drink **The Great Duck's Potion**. Drinking it triggers a cute `^ω^` power-up animation, golden pixel aura burst, shatters Fenrir's invulnerability shield, boosts Pip's attack speed and damage, and initiates the 2-Phase Final Boss Fight:
+    - **PHASE 1: Usurper King Fenrir (Wand-Wielder)** — Teleports across the throne room, fires Starlight Gem laser beams, casts homing gem shards, and performs wolf-claw dash combos.
+    - **PHASE 2: Calamity Beast Fenrir (Gem-Overloaded Form at 0% Phase 1 HP)** — Cutscene transition! Fenrir absorbs the Starlight Gem's raw power, growing into a massive shadow-lightning Dire Wolf. Attacks include bullet-hell gem novas, shadow-wolf pack summons, arena-splitting lightning slashes, and meteor slams.
+  * ENDING: Defeating Phase 2 retrieves the Starlight Gem Wand, restores King Leo to the throne, and triggers a cute Victory Celebration screen where Pip gets a royal fish feast and crown!
+
+========================================================================
+3. FULL MOBILE TOUCH + DESKTOP HYBRID CONTROLS & RESPONSIVE VIEWPORT
+========================================================================
+Build seamless cross-platform support for both Mobile (iOS/Android touchscreens) and Desktop (Keyboard/Mouse):
+- MOBILE VIEWPORT & TOUCH LOCK:
+  * Include `<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">`.
+  * Set `touch-action: none; user-select: none; -webkit-user-select: none; overscroll-behavior: none;` on `body` and `canvas` so multi-touch joystick + attack buttons never trigger browser scrolling, zooming, or context menus.
+  * Auto-scale the `480x270` pixel canvas smoothly to fit any portrait or landscape mobile screen with crisp nearest-neighbor pixel scaling.
+- MULTI-TOUCH ON-SCREEN MOBILE CONTROLS (Auto-detected on touch devices + toggleable via a tiny top-bar `📱 Touch UI` button for testing on PC):
+  * **Left Thumb — Floating / Fixed Virtual Analog Joystick**: Semi-transparent (`opacity: 0.45`, increasing to `0.8` when touched) pixel-art D-pad/thumbstick in the bottom-left corner supporting smooth 360° / 8-way movement via `touchstart`, `touchmove`, and `touchend` (tracking individual `touch.identifier` so moving and attacking simultaneously works with zero input drop).
+  * **Right Thumb — Ergonomic Action Cluster (Bottom-Right Corner)**:
+    - Large Primary `[⚔️ SLASH]` button (3-hit sword combo).
+    - Secondary `[💨 ROLL]` button (cute cat-ball dodge roll with i-frames).
+    - Context-sensitive `[💬 ACT / CHEST]` button (glows when near NPCs, chests, or portals; also allow tapping directly on dialogue boxes to advance text).
+    - Compact Quick-Use Pills above action buttons: `[🧪 HEAL]` and `[🦆 DUCK POTION]` (pulses brightly with golden sparkles during the Final Wolf Boss fight).
+- DESKTOP CONTROLS (Always active alongside touch):
+  * `WASD` / `Arrow Keys`: Move | `SPACE` / `Left Click`: Sword Combo | `SHIFT` / `Right Click`: Dodge-Roll | `E`: Interact/Chest | `H`: Heal Potion | `Q`: Drink Great Duck's Potion | `I` / `TAB`: Inventory Modal.
+
+========================================================================
+4. ANTI-GUI-FLOODING & PIXEL HUD ARCHITECTURE (STRICT VISUAL RULES)
+========================================================================
+- ZERO GUI FLOODING: Never cover more than 12% of the gameplay viewport with HUD elements (and keep mobile touch controls semi-transparent in the bottom corners so the center action arena is 88%+ unobstructed).
+- COMPACT TOP-LEFT HUD BAR:
+  * Cute Cat Face Icon + Pixel Heart/HP bar, Stamina paw-pips, XP bar, Current Level, Gold/Fish count, and Equipped Weapon/Armor 16x16 icons + a compact `[🎒 BAG]` tap button for mobile players.
+- COMPACT TOP-RIGHT QUEST & POTION WIDGET:
+  * Single-line active Quest Objective tracker + `[📱 Touch UI]` toggle.
+- BOSS HEALTH BAR:
+  * Appears ONLY during Mini-Boss or Boss encounters at the top-center/bottom-center with Phase indicator (`PHASE 1 / 2` or `PHASE 2 / 2`).
+- TOGGLEABLE MODAL DRAWER (`[I]` or tapping `[🎒 BAG]`):
+  * Touch-friendly Inventory, Equipment comparison (Iron -> Steel -> Mithril -> Royal Cat), and Blacksmith Upgrade anvil with large tap targets (`min 44x44px`), pausing gameplay cleanly.
+- FLOATING PIXEL COMBAT TEXT:
+  * Crisp pixel-font damage numbers, `"CRIT! 🐾"`, `"DODGE! ✨"`, and compact loot pickup toasts that fade out within 1.0 second (max 3 active toasts at once).
+
+========================================================================
+5. GEAR & LOOT PROGRESSION TABLE (WITH VISIBLE CUTE COSMETIC CHANGES)
+========================================================================
+Equipping new armor and swords updates Pip's sprite appearance in real time:
+1. Starter Tier: **Iron Sword** (+5 ATK) & **Iron Squire Armor** (+10 Max HP, +2 DEF) — Cute oversized iron headband with ear-holes.
+2. Tier 2 (Goblin Woods): **Steel Cat-Claw Blade** (+12 ATK) & **Steel Plate Mail** (+30 Max HP, +5 DEF) — Adds a shiny silver chestplate and blue scarf.
+3. Tier 3 (Bramble Ravine): **Mithril Fang Sabre** (+22 ATK, +15% Crit) & **Mithril Knight Armor** (+65 Max HP, +10 DEF) — Glowing cyan trim and winged ear-guards.
+4. Tier 4 (Swamp Boss / Sanctuary Chest): **Sun-Forged Lionheart Blade** (+38 ATK, +25% Crit, fires cute Starlight Paw-Beams on 3rd hit) & **Royal Felis Armor** (+120 Max HP, +18 DEF) — Golden cape and miniature royal crown between Pip's ears!
+5. Legendary Relic (From The Great Duck): **The Great Duck's Potion** (Breaks Fenrir's Dark Ward, +50% All Stats, Golden Feather Aura, HP Regen in Final Boss).
+
+========================================================================
+6. DELIVERABLE REQUIREMENTS
+========================================================================
+Output the COMPLETE, fully functional, un-truncated single-file HTML code (`index.html`). Do not use placeholders, `// TODO` comments, or omitted functions. Ensure Web Audio API unlocks cleanly on the first mobile `touchstart` or desktop `click` event. Every zone, mini-boss, loot tier, cute cat animation, mobile multi-touch controller, the Great Duck cutscene, and both phases of the final Wolf Boss fight must be 100% playable from start to finish.
+```
+
+## Optional Quick-Tune Prompts (For Follow-Up Iterations in AI Studio)
+
+If you want to customize the mobile experience or add even more cute cat features after generating the first version, paste any of these follow-up prompts:
+
+1. **Add Customizable Cat Fur Patterns & Hats:**
+   > "Add a cozy Cat Wardrobe mirror in the starting camp and Great Duck Sanctuary where players can tap on mobile or press `[C]` to switch our cat hero's fur pattern (Ginger Tabby, Tuxedo, Calico, White Persian, Void Black) and equip cute hats (Straw Hat, Duckling Hood, Mini Crown) without hiding the ear twitch animations."
+2. **Add Mobile Haptic Feedback & Screen Shake Toggle:**
+   > "Add `navigator.vibrate` haptic pulses on mobile when landing a 3rd-hit crit slash or drinking the Great Duck's Potion, plus an auto-aim assist toggle for mobile touch players during the 2-phase Wolf Boss fight."
+3. **Add Cute Pet Duckling Companion:**
+   > "After meeting the Great Duck, have a tiny pixel Duckling waddle behind our cat hero, picking up nearby gold/loot drops automatically and occasionally shooting mini water bubbles at enemies."

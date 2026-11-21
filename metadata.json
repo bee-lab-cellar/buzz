@@ -1,0 +1,6 @@
+{
+  "name": "Claws of the Crown: The Great Duck's Elixir",
+  "description": "A 16-bit pixel-art 2D top-down story action-RPG where Pip the tabby cat knight quests for the Great Duck's Elixir to reclaim the Cat Kingdom from Usurper King Fenrir.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
